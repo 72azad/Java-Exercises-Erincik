@@ -8,7 +8,7 @@ public class Main {
                 System.out.println("Konfektionsgröße: " + clothingSize);
             }
 
-            public static int calculateClothingSize(int chestCircumference, int height, int gender) {
+            public static int calculateClothingSize(int chestCircumference, int height, int gender)  {
                 int clothingSize = chestCircumference / 2;
 
                 if (gender == 1) {
